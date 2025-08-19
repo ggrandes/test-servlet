@@ -59,10 +59,20 @@ OK
 
 ## MAVEN
 
+###### jakarta.servlet (tomcat 10+)
+
     <dependency>
         <groupId>org.javastack</groupId>
         <artifactId>test-servlet-jakarta</artifactId>
         <version>2.0.0</version>
+    </dependency>
+
+###### javax.servlet (tomcat 7, 8.5, 9)
+
+    <dependency>
+        <groupId>org.javastack</groupId>
+        <artifactId>test-servlet</artifactId>
+        <version>1.0.0</version>
     </dependency>
 
 ---
