@@ -2,7 +2,7 @@
 
 Simple Test Servlet, always returns OK, for running in a servlet container like Tomcat. Open Source Java project under Apache License v2.0
 
-### Current Stable Version is [1.0.0](https://search.maven.org/#search|ga|1|g%3Aorg.javastack%20a%3Atest-servlet)
+### Current Stable Version is [2.0.0](https://search.maven.org/#search|ga|1|g%3Aorg.javastack%20a%3Atest-servlet-jakarta)
 
 ---
 
@@ -10,7 +10,7 @@ Simple Test Servlet, always returns OK, for running in a servlet container like 
 
 #### Installation:
 
-* Place `test-servlet-x.x.x.jar` in `tomcat/lib/` (for global monitoring of all context)
+* Place `test-servlet-jakarta-x.x.x.jar` in `tomcat/lib/` (for global monitoring of all context)
 
 #### Configuration:
 
@@ -61,9 +61,9 @@ OK
 
     <dependency>
         <groupId>org.javastack</groupId>
-        <artifactId>test-servlet</artifactId>
-        <version>1.0.0</version>
+        <artifactId>test-servlet-jakarta</artifactId>
+        <version>2.0.0</version>
     </dependency>
 
 ---
-Inspired in [Tomcat Context failCtxIfServletStartFails](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Common_Attributes), this code is Java-minimalistic version.
+Inspired in [Tomcat Context failCtxIfServletStartFails](https://tomcat.apache.org/tomcat-11.0-doc/config/context.html#Common_Attributes), this code is Java-minimalistic version.
